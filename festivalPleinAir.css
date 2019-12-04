@@ -1,0 +1,509 @@
+body, html {
+    height: 100%;
+    margin:auto;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+p, h1, h2, h3 {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("images/festival-nuit-rouge.jpg");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  z-index: 0;
+}
+
+
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/festival-nuit.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+.hero-text {
+    display:flex;
+    flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text .btn1 {
+    top:50%;
+    font-size: 2em;
+    background-color: #351c75ff;
+    border: none;
+}
+
+.half-col {
+   
+    width:45%;
+}
+
+.div.row.formu {
+    padding: 4em!important;
+    margin-left:0!important;
+    margin-right:0!important;
+}
+
+.formu {
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.form-half {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.form-full {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+img.rounded-circle {
+    height: 300px;
+}
+
+label {
+    font-size: 1.7em;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+input.form-control {
+    height: 70px;
+}
+
+select.form-control {
+    height: 70px;
+}
+
+legend {
+    text-align: center;
+}
+
+.btn1 {
+    padding:0.5em;
+    padding-left:2em;
+    padding-right:2em;
+    font-size:1.3em;
+    display:flex;
+    margin:auto;
+    margin-top: 2em;
+}
+
+.navbar-nav {
+    margin-right:5em;
+}
+
+.navbar-brand {
+    margin-left:5em;
+}
+
+
+.nav-item {
+    color:#351c75ff!important;
+    padding:0.5em;
+}
+
+.nav-link {
+    font-size: 1.3em;
+}
+
+.nav-link.active {
+    color: #351c75ff!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #351c75ff!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #FBD012!important;
+    background-color: #351c75ff!important;
+}
+
+.gauAcc{
+    display: flex;
+    flex-direction: row;
+}
+
+.conAcc {
+    display: flex;
+}
+
+.btn.elemAcc {
+    align-content: center;
+    justify-content: center;
+    margin-left:30%;
+}
+
+.fest {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.fest1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+section.row.fest1 {
+    margin-bottom: 3em;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+
+img {
+    width: 100%;
+    height:75%;
+ }
+
+h1 {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    text-align: center !important;
+}
+
+h4, .h4 {
+    font-size: 1.6em;
+}
+
+.rounded-circle {
+    margin-bottom: 1.5em;
+}
+
+.row {
+    display: flex;
+    vertical-align: center;
+    text-align: justify;
+    font-size: 1.15em;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.installations {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.inst {
+    background-color: #efefef;
+    padding-bottom:6em;
+    
+}
+
+.prog {
+    margin-left: 1em;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7em;
+    padding-right: 7em;
+    margin-bottom: 10em;
+}
+
+.actualites {
+    margin-left: 1em;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7em;
+    padding-right: 7em;
+    
+}
+
+.trouver {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.act2, .act4, .act6, .act8 {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    vertical-align: center;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+    background-color: #351c7549;
+    padding:1em;
+}
+
+.act1, .act3, .act5, .act7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: center;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+    padding:1em;
+}
+
+.actu {
+    margin-right: 40px;
+    margin-bottom: 5em;
+    border: 2em solid #3E3A71;
+    text-align: justify;
+}
+
+#googleMap {
+    height: 500px;
+    width: 58%;
+    float: right;
+}
+
+.centrer{
+    text-align: center!important;
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+
+.carte {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #2f2f30;
+    color:#efefef;
+    margin-top: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em;
+    
+    align-items: center;
+}
+
+.button#sibglebutton.btn.btn-primary.btn-lg.elemAcc {
+    font-size: 2em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.info {
+    margin-bottom: 1em;
+   
+}
+
+.icon {
+    max-width: 4em;
+    padding: 1em;
+}
+
+input, label {
+    margin: .4rem 0;
+}
+
+.tab-pane {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    font-size:1.3em;
+}
+
+.col-xs-10.col-sm-8.col-md-8 {
+    padding-right:0px!important;
+}
+
+.close {
+    margin-left:85%;
+    font-size: 4em;
+}
+
+.titre {
+    margin-bottom: 0.7em;
+    font-size: 4em;
+}
+
+.modal-body {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.btn-primary, .badge-primary {
+    background:#351c75ff;
+    border: #351c75ff;
+}
+
+.btn-primary:hover {
+    background:#FBD012;
+    border: #351c75ff;
+}
+
+.btn-success, .badge-success {
+    background:#FBD012;
+}
+
+.image {
+    padding-right:0;
+    padding-left:0;
+}
+
+.badge-pill {
+    font-size: 1.05em;
+}
+
+.corpsmod {
+    padding:0;
+}
+
+.badge-pill {
+    font-size: 1.7em;
+}
+
+element.style {
+     padding-right: 0px!important; 
+     display: block; 
+}
+
+
+
+.mx-auto, .container {
+    padding: 0!important;
+
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    margin: auto;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.ul1 {
+    padding-inline-start: 0!important;
+}
+
+/* ------------------------ Media Queries---------------------- */
+
+@media screen and (min-width: 992px) {
+    .badge-pill {
+      font-size: 0.8em!important;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .badge-pill {
+      font-size: 0.8em!important;
+    }
+    .span.badge.badge-pill.badge-primary {
+        font-size:2em;
+    }
+    .titre {
+        margin-bottom: 0.7em;
+        font-size: 4em!important;
+    }
+    .li.text-muted {
+        font-size:2em!important;
+    }
+    .div.footer.row {
+        font-size:1.3em;
+    }
+  
+    .row.installations {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3em;
+    }
+    .prog {
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+  }
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+    max-width: 1000px!important; 
+}
+  }
+
+  
+@media (min-width: 576px) {
+  .container {
+      max-width: 1000px;
+  }
+}
+
+@media (min-width: 992px) {
+.col-lg-10 {
+    flex: 0;
+}
+}
